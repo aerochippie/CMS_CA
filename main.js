@@ -1,4 +1,4 @@
-const baseUrl = "http://rougecub.com/wp-json/wc/store/products"
+const baseUrl = "https://rougecub.com/wp-json/wc/store/products"
 const itemContainer = document.querySelector(".products")
 const buttonAmount = document.querySelector(".amount-per-page");
 const searchButton = document.querySelector(".search-button");

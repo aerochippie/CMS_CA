@@ -2,7 +2,7 @@ const queryString = window.location.search;
 const id = new URLSearchParams(queryString).get('id');
 
 
-const baseUrl = `http://rougecub.com/wp-json/wc/store/products/${id}`;
+const baseUrl = `https://rougecub.com/wp-json/wc/store/products/${id}`;
 
 const detailContainer = document.querySelector(".product-detail")
 
